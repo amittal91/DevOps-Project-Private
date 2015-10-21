@@ -2,18 +2,15 @@ package com.github.stokito.unitTestExample.calculator;
 
 public class Calculator {
 
-	public int sum(int a, int b) {
-		boolean flag = true;
+	public int sum(boolean flag, int a, int b) {
 		if (flag) {
-		int result = a+b ;
+		int result = a+b;
 		return result;
 		}
 		else
 		{
-			int result = a+b ;
-			return result;
-		}
-		
+			return 0;
+		}	
 	}
 
 	public int minus(int a, int b) {

@@ -10,7 +10,7 @@ public class CalculatorTest {
 		// Given
 		Calculator calculator = new Calculator();
 		// When
-		int result = calculator.sum(2, 2);
+		int result = calculator.sum(true, 2, 2);
 		// Then
 		if (result != 4) {   // if 2 + 2 != 4
 			Assert.fail();
