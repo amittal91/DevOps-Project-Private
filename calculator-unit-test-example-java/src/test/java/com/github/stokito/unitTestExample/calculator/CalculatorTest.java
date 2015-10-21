@@ -17,7 +17,7 @@ public class CalculatorTest {
 		}
 	}
 
-	// @Test  
+	// @Test        
 	// public void testMinus() {
 	// 	Calculator calculator = new Calculator();
 	// 	Assert.assertEquals(0, calculator.minus(2, 2));
